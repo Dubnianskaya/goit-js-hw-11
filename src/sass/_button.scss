@@ -1,0 +1,34 @@
+.hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 700px;
+    padding: 3px 8px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background: rgb(129, 169, 241);
+}
+
+.load-more {
+margin-top: 20px;
+}
+
+.finish {
+margin-top: 20px;
+font-size: 24px;
+color: gray;
+}

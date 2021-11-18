@@ -12,6 +12,7 @@
     />
   </head>
   <body>
+    <header class="header">
     <form class="search-form" id="search-form">
       <input
         type="text"
@@ -21,12 +22,16 @@
       />
       <button type="submit">Search</button>
     </form>
-
+  </header>
+  
+  <div class="container">
     <div class="gallery">
     </div>
 
-    <button type="button" class="load-more">Load more</button>
-    
+    <button type="button" class="load-more hidden">Load more</button>
+    <p class="finish hidden">Вы посмотрели все картинки</p>
+  </div>
+
     <script src="./index.js"></script>
   </body>
 </html>
